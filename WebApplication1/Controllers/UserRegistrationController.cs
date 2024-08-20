@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Notes.Common;
 using WebApplication1.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -41,7 +42,7 @@ namespace Notes.Controllers
                 Id = Guid.NewGuid(),
                 Username = user.Username,
                 Email = user.Email,
-                PasswordHash = user.PasswordHash,
+                PasswordHash = CommonMethods.ConvertToEncrypt(user.PasswordHash),
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 CreatedAt = DateTime.UtcNow,

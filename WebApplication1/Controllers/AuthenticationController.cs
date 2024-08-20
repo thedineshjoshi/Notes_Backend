@@ -1,6 +1,7 @@
 ﻿using Data.ApplicationDbContext;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using Notes.Common;
 using Notes.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -43,7 +44,7 @@ namespace Notes.Controllers
         {
             var userCredentials = db.Users.FirstOrDefault(u => u.Username == LoginRequest.Username);
             var Username = userCredentials.Username;
-            var Password = userCredentials.PasswordHash;
+            var Password = CommonMethods.ConvertToDecrypt(userCredentials.PasswordHash);
 
             if (LoginRequest.Username == Username && LoginRequest.Password == Password)
             {

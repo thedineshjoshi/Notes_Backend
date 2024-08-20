@@ -28,6 +28,6 @@ public class NoteService : INoteService
 
         return await _context.Notes
             .Where(note => note.UserId == userGuid)
-            .ToListAsync(); // Extension method for IQueryable
+            .ToListAsync(); 
     }
 }

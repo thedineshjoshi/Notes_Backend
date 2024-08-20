@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\Internship\\Notes\\Notes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|e:\\internship\\notes\\notes\\webapplication1\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|solutionrelative:webapplication1\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|e:\\internship\\notes\\notes\\webapplication1\\controllers\\userregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|solutionrelative:webapplication1\\controllers\\userregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|e:\\internship\\notes\\notes\\webapplication1\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|solutionrelative:webapplication1\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|e:\\internship\\notes\\notes\\webapplication1\\models\\notedeleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|solutionrelative:webapplication1\\models\\notedeleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|e:\\internship\\notes\\notes\\webapplication1\\common\\commonmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|solutionrelative:webapplication1\\common\\commonmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|e:\\internship\\notes\\notes\\webapplication1\\models\\noteupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|solutionrelative:webapplication1\\models\\noteupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|e:\\internship\\notes\\notes\\webapplication1\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|solutionrelative:webapplication1\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NoteDeleteViewModel.cs",
-              "DocumentMoniker": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Models\\NoteDeleteViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\NoteDeleteViewModel.cs",
-              "ToolTip": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Models\\NoteDeleteViewModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\NoteDeleteViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAC8AAAAAmpmZmZkJwDUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T19:34:00.233Z",
+              "WhenOpened": "2024-08-20T10:55:41.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRegistrationController.cs",
+              "DocumentMoniker": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Controllers\\UserRegistrationController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserRegistrationController.cs",
+              "ToolTip": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Controllers\\UserRegistrationController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UserRegistrationController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAApwDYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T10:54:30.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommonMethods.cs",
+              "DocumentMoniker": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Common\\CommonMethods.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Common\\CommonMethods.cs",
+              "ToolTip": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Common\\CommonMethods.cs",
+              "RelativeToolTip": "WebApplication1\\Common\\CommonMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T10:48:36.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Note.cs",
+              "DocumentMoniker": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Note.cs",
+              "ToolTip": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Models\\Note.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Note.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T10:39:46.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NoteUpdateModel.cs",
-              "DocumentMoniker": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Models\\NoteUpdateModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\NoteUpdateModel.cs",
-              "ToolTip": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Models\\NoteUpdateModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\NoteUpdateModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T19:28:47.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "NotesController.cs",
               "DocumentMoniker": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Controllers\\NotesController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\NotesController.cs",
               "ToolTip": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Controllers\\NotesController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\NotesController.cs",
-              "ViewState": "AQIAACoAAACAZmZmZmYywDUAAAAaAAAA",
+              "ViewState": "AQIAABAAAACAmZmZmZkhwBoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T06:15:52.858Z",
+              "WhenOpened": "2024-08-20T09:54:52.494Z",
               "EditorCaption": ""
             }
           ]

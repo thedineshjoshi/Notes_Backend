@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Notes.Models;
+using Notes.Models.ViewModel;
 using System.Security.Claims;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -37,11 +38,29 @@ namespace Notes.Controllers
             return Ok(notes);
         }
 
+        [Route("SearchNotes")]
+        [HttpGet]
+        public async Task<IActionResult> SearchNotes([FromQuery] string label)
+        {
+            var notes = await db.Notes
+                .Where(n => n.Label.Contains(label))
+                .ToListAsync();
+
+            return Ok(notes);
+        }
+
+
         // POST api/<NotesController>
         [Route("AddNote")]
         [HttpPost]
-        public IActionResult CreateNote([FromBody] NoteCreateViewModel newNote)
+        public async Task<IActionResult> CreateNote([FromBody] NoteCreateViewModel newNote)
         {
+            // Ensure the UserId exists
+            var userExists = await db.Users.AnyAsync(u => u.Id == newNote.UserId);
+            if (!userExists)
+            {
+                return BadRequest("User does not exist.");
+            }
 
             var notes = new Note
             {
@@ -49,12 +68,52 @@ namespace Notes.Controllers
                 Title = newNote.Title,
                 Label = newNote.Label,
                 Content = newNote.Content,
-                UserId = newNote.UserId
+                UserId = newNote.UserId,
+                BgColor = newNote.BgColor,
+                FontColor = newNote.FontColor
             };
-            db.Add(notes);
-            db.SaveChanges();
-            return Ok(notes);
+
+            if (!string.IsNullOrEmpty(newNote.Label))
+            {
+                var label = await db.Labels.FirstOrDefaultAsync(l => l.Name == newNote.Label);
+
+                if (label == null)
+                {
+                    
+                    label = new Label
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = newNote.Label
+                    };
+                    db.Labels.Add(label);
+                    await db.SaveChangesAsync(); 
+                }
+
+                
+                db.Notes.Add(notes);
+                await db.SaveChangesAsync(); 
+
+                var noteLabel = new NoteLabel
+                {
+                    NoteId = notes.Id,
+                    LabelId = label.Id
+                };
+                db.NoteLabels.Add(noteLabel);
+            }
+            else
+            {
+                db.Notes.Add(notes);
+                await db.SaveChangesAsync(); 
+            }
+
+            if (!string.IsNullOrEmpty(newNote.Label))
+            {
+                await db.SaveChangesAsync();
+            }
+
+            return CreatedAtAction(nameof(CreateNote), new { id = notes.Id }, notes);
         }
+
 
         // PUT api/<NotesController>/5
         [HttpPut("{id}")]
@@ -68,6 +127,8 @@ namespace Notes.Controllers
             }
             existingNote.Title = updateNote.Title;
             existingNote.Label = updateNote.Label;
+            existingNote.FontColor = updateNote.FontColor;
+            existingNote.BgColor = updateNote.BgColor;
             existingNote.Content = updateNote.Content;
             existingNote.UpdatedAt = DateTime.UtcNow; 
             await db.SaveChangesAsync();

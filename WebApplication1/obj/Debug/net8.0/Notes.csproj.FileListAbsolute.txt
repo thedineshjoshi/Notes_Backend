@@ -144,3 +144,4 @@ E:\Internship\Notes\Notes\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.
 E:\Internship\Notes\Notes\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 E:\Internship\Notes\Notes\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 E:\Internship\Notes\Notes\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\Internship\Notes\Notes\WebApplication1\obj\Debug\net8.0\Notes.sourcelink.json

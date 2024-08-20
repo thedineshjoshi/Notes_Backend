@@ -4,19 +4,15 @@ using WebApplication1.Models;
 namespace Notes.Models
 {
     public class Note
-    {
-        [Key]
+    {        
         public Guid Id { get; set; }
-
-        [Required] 
         public string Title { get; set; }
-
         public string Content { get; set; }
-
         public string Label { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
-        
+        public string BgColor { get; set; }
+        public string FontColor { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
         public Guid UserId { get; set; }
         public User User { get; set; } 
     }
