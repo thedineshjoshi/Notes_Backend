@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Internship\\Notes\\Notes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|e:\\internship\\notes\\notes\\webapplication1\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|solutionrelative:webapplication1\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|e:\\internship\\notes\\notes\\webapplication1\\models\\notedeleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|solutionrelative:webapplication1\\models\\notedeleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|e:\\internship\\notes\\notes\\webapplication1\\models\\noteupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFBCDF0E-0646-4FA5-88CA-B5292CC6F69E}|WebApplication1\\Notes.csproj|solutionrelative:webapplication1\\models\\noteupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NoteDeleteViewModel.cs",
+              "DocumentMoniker": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Models\\NoteDeleteViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\NoteDeleteViewModel.cs",
+              "ToolTip": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Models\\NoteDeleteViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\NoteDeleteViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T19:34:00.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NoteUpdateModel.cs",
+              "DocumentMoniker": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Models\\NoteUpdateModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\NoteUpdateModel.cs",
+              "ToolTip": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Models\\NoteUpdateModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\NoteUpdateModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T19:28:47.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\NotesController.cs",
+              "ToolTip": "E:\\Internship\\Notes\\Notes\\WebApplication1\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\NotesController.cs",
+              "ViewState": "AQIAACoAAACAZmZmZmYywDUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T06:15:52.858Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
